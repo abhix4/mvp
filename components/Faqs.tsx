@@ -30,7 +30,7 @@ export default function Faqs() {
     
     ];
 
-    const toggleFaq = (index) => {
+    const toggleFaq = (index: any) => {
         setOpenIndex(openIndex === index ? null : index);
     };
 
